@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" />
+  <meta name="theme-color" content="#050506" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Лидеры продаж — Casio</title>
+  <meta name="description" content="Популярные модели Casio: G-Shock, Edifice, Pro Trek и классика." />
+
+  <script>
+    (function () {
+      try {
+        var host = location.hostname;
+        if (!/\.github\.io$/i.test(host)) return;
+        var parts = location.pathname.split("/").filter(Boolean);
+        if (!parts.length) return;
+        var repo = parts[0];
+        if (/\.[a-z0-9]+$/i.test(repo)) return;
+        var b = document.createElement("base");
+        b.href = "/" + repo + "/";
+        document.head.insertBefore(b, document.head.firstChild);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3" />
+  <link rel="shortcut icon" href="favicon.ico?v=3" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Syne:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css?v=mobile-1" />
+</head>
+<body class="page-bg">
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__photo"></div>
+    <div class="ambient__base"></div>
+    <div class="ambient__carbon"></div>
+    <div class="ambient__marbling"></div>
+    <div class="ambient__orb ambient__orb--gold"></div>
+    <div class="ambient__orb ambient__orb--steel"></div>
+    <div class="ambient__orb ambient__orb--forge"></div>
+    <div class="ambient__vignette"></div>
+    <div class="ambient__grain"></div>
+  </div>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html">Cas<span>io</span></a>
+      <button class="nav__toggle" type="button" aria-label="Меню" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="nav__links" aria-label="Основная навигация">
+        <a class="nav__link" href="index.html">Главная</a>
+        <a class="nav__link" href="best-sellers.html">Лидеры продаж</a>
+        <a class="nav__link" href="index.html#heritage">Наследие</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Коллекция</p>
+        <h1 class="page-hero__title reveal reveal-delay-1">Лидеры продаж.</h1>
+        <p class="page-hero__lead reveal reveal-delay-2">
+          Шесть моделей, которые определяют характер Casio — от культовой классики
+          до технологичных серий для города и экспедиций.
+        </p>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="wrap">
+        <div class="products__grid" data-products>
+          <!-- Cards injected by assembly.js -->
+        </div>
+      </div>
+    </section>
+
+    <div class="site-end wrap">
+      <p class="site-end__brand">CASIO</p>
+      <p class="site-end__note">Концепт премиального лендинга · 2026</p>
+      <p class="site-end__note"><a href="privacy.html">Политика конфиденциальности</a></p>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/assembly.js"></script>
+</body>
+</html>

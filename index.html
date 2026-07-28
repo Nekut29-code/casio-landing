@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" />
+  <meta name="theme-color" content="#050506" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Casio — Время, которое остается актуальным</title>
+  <meta name="description" content="Премиальный концепт бренда Casio. Надежность, инновации и легендарный дизайн." />
+
+  <!-- GitHub Pages project path: /Casio-Landing/ -->
+  <script>
+    (function () {
+      try {
+        var host = location.hostname;
+        if (!/\.github\.io$/i.test(host)) return;
+        var parts = location.pathname.split("/").filter(Boolean);
+        if (!parts.length) return;
+        var repo = parts[0];
+        if (/\.[a-z0-9]+$/i.test(repo)) return;
+        var b = document.createElement("base");
+        b.href = "/" + repo + "/";
+        document.head.insertBefore(b, document.head.firstChild);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Favicon (after base so GitHub Pages paths resolve; ?v= busts cache) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3" />
+  <link rel="shortcut icon" href="favicon.ico?v=3" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Syne:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css?v=mobile-points-sm-1" />
+</head>
+<body>
+      <div class="ambient" aria-hidden="true">
+    <div class="ambient__base"></div>
+    <div class="ambient__carbon"></div>
+    <div class="ambient__marbling"></div>
+    <div class="ambient__orb ambient__orb--gold"></div>
+    <div class="ambient__orb ambient__orb--steel"></div>
+    <div class="ambient__orb ambient__orb--forge"></div>
+    <div class="ambient__vignette"></div>
+    <div class="ambient__grain"></div>
+  </div>
+<header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html">Cas<span>io</span></a>
+      <button class="nav__toggle" type="button" aria-label="Меню" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="nav__links" aria-label="Основная навигация">
+        <a class="nav__link" href="index.html">Главная</a>
+        <a class="nav__link" href="best-sellers.html">Лидеры продаж</a>
+        <a class="nav__link" href="#heritage">Наследие</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          disablepictureinpicture
+          disableremoteplayback
+        >
+          <source src="./assets/home-bg.mp4?v=4" type="video/mp4" />
+        </video>
+        <div class="hero__media-shade"></div>
+      </div>
+      <div class="wrap hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Since 1946 · Japan</p>
+          <h1 class="hero__title">CASIO</h1>
+          <p class="hero__subtitle">Время, которое остается актуальным.</p>
+          <p class="hero__desc">
+            Casio соединяет инженерную точность Японии с дизайном, который переживает эпохи. Каждая модель — диалог между формой, функцией и характером.
+          </p>
+
+          <ul class="hero__points" aria-label="Сильные стороны Casio">
+            <li class="hero__point">
+              <strong class="hero__point-title">Японское качество</strong>
+              <span class="hero__point-text">Точность сборки и надёжность, знакомые миллионам.</span>
+            </li>
+            <li class="hero__point">
+              <strong class="hero__point-title">Инновации</strong>
+              <span class="hero__point-text">Технологии, которые служат каждый день — без лишнего шума.</span>
+            </li>
+            <li class="hero__point">
+              <strong class="hero__point-title">Легендарный дизайн</strong>
+              <span class="hero__point-text">Силуэт, который узнают с первого взгляда.</span>
+            </li>
+          </ul>
+<div class="hero__actions">
+            <a class="btn btn--primary" href="best-sellers.html">
+              Исследовать коллекцию
+              <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" />
+              </svg>
+            </a>
+            <a class="btn btn--ghost" href="#heritage">
+              Узнать о бренде
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FEATURED MODEL -->
+    <section class="featured">
+      <div class="wrap">
+        <header class="section__header reveal">
+          <p class="eyebrow">Избранная модель</p>
+          <h2 class="section-title">Икона коллекции</h2>
+          <p class="section-lead">
+            Модель, в которой сходятся стиль 80-х и удобство на каждый день —
+            если ищете «те самые» Casio без лишнего шума.
+          </p>
+        </header>
+
+        <div class="featured__panel glass reveal">
+          <div class="featured__media">
+            <span class="featured__badge">Best choice</span>
+            <img
+              src="assets/watches/aq-230.avif"
+              alt="Vintage AQ-230"
+            />
+          </div>
+          <div class="featured__body">
+            <p class="eyebrow">Vintage</p>
+            <h3 class="featured__name">AQ-230</h3>
+            <p class="featured__desc">
+              Аналого-цифровой дизайн в духе Casio 80-х: тонкий корпус, тёплый циферблат
+              и металлический браслет. Идеальный баланс ностальгии и повседневного комфорта.
+            </p>
+            <div class="featured__meta">
+              <div class="featured__meta-item">
+                <span>Водозащита</span>
+                <strong>30 м</strong>
+              </div>
+              <div class="featured__meta-item">
+                <span>Корпус</span>
+                <strong>Сталь / смола</strong>
+              </div>
+              <div class="featured__meta-item">
+                <span>Цена</span>
+                <strong class="featured__price">7 990 ₽</strong>
+              </div>
+            </div>
+            <a class="btn btn--accent" href="watch.html?id=aq-230">
+              Подробнее
+              <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+      <div class="wrap">
+        <header class="section__header reveal">
+          <p class="eyebrow">Атмосфера</p>
+          <h2 class="section-title">Галерея</h2>
+          <p class="section-lead">
+            Форма, свет и деталь — визуальный язык Casio в крупных кадрах.
+          </p>
+        </header>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item gallery__item--tall reveal">
+            <img
+              src="https://imgs.search.brave.com/CxRQpZKPAOZkxDG1Pj2sqjX-oAwA5HKMIXBxrfIRsBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVj/OWNiODZlYzQ2ZjZk/NjhjNmI2MzI2Ny9m/MzNiNmZjYi0wY2U0/LTRmMTItYWQ3MS00/OWJkMzdlZGE1MDkv/Y2FzaW8tZy1zaG9j/ay11dGlsaXR5LWJs/YWNrLmpwZw"
+              alt="G-Shock GA-2100"
+            />
+            <figcaption class="gallery__label">G-Shock</figcaption>
+          </figure>
+          <figure class="gallery__item reveal reveal-delay-1">
+            <img
+              src="assets/watches/edifice-ecb.webp"
+              alt="Edifice ECB-900"
+            />
+            <figcaption class="gallery__label">Edifice</figcaption>
+          </figure>
+          <figure class="gallery__item reveal reveal-delay-2">
+            <img
+              src="assets/watches/aq-230.avif"
+              alt="Vintage AQ-230"
+            />
+            <figcaption class="gallery__label">Vintage</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERITAGE -->
+    <section class="heritage section" id="heritage">
+      <div class="wrap">
+        <header class="section__header heritage__header reveal">
+          <p class="eyebrow">История</p>
+          <h2 class="section-title">Наследие Casio</h2>
+          <p class="section-lead">
+            Путь длиною почти в 80 лет — от первых электронных устройств до часов, ставших легендой.
+          </p>
+        </header>
+
+        <div class="timeline" aria-label="Хронология Casio">
+          <div class="timeline__line" aria-hidden="true"></div>
+
+          <article class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="1946">1946</time>
+              <p class="timeline__text">Основание компании Casio в Токио.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal reveal-delay-1">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="1974">1974</time>
+              <p class="timeline__text">Выпуск Casiotron, первых в мире цифровых часов с автоматическим календарем.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="1983">1983</time>
+              <p class="timeline__text">Появление G-SHOCK и рождение новой категории сверхпрочных часов.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal reveal-delay-1">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="1995">1995</time>
+              <p class="timeline__text">Запуск серии PRO TREK для путешествий и активного отдыха.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="2000">2000</time>
+              <p class="timeline__text">Появление EDIFICE, вдохновленной миром автоспорта.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal reveal-delay-1">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <time class="timeline__year" datetime="2019">2019</time>
+              <p class="timeline__text">Выход G-SHOCK GA-2100, ставших одной из самых популярных моделей бренда.</p>
+            </div>
+          </article>
+
+          <article class="timeline__item timeline__item--now reveal">
+            <div class="timeline__marker timeline__marker--now" aria-hidden="true"></div>
+            <div class="timeline__card glass timeline__card--accent">
+              <time class="timeline__year">Сегодня</time>
+              <p class="timeline__text">Casio представлена более чем в 100 странах и продолжает создавать часы, объединяющие технологии и надежность.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="heritage-stats">
+          <article class="heritage-stat glass reveal">
+            <p class="heritage-stat__value">1946</p>
+            <p class="heritage-stat__label">год основания</p>
+          </article>
+          <article class="heritage-stat glass reveal reveal-delay-1">
+            <p class="heritage-stat__value">100+</p>
+            <p class="heritage-stat__label">стран присутствия</p>
+          </article>
+          <article class="heritage-stat glass reveal reveal-delay-2">
+            <p class="heritage-stat__value">50+</p>
+            <p class="heritage-stat__label">лет производства часов</p>
+          </article>
+          <article class="heritage-stat glass reveal reveal-delay-3">
+            <p class="heritage-stat__value">Миллионы</p>
+            <p class="heritage-stat__label">пользователей по всему миру</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-end wrap">
+      <p class="site-end__brand">CASIO</p>
+      <p class="site-end__note">Концепт премиального лендинга · 2026</p>
+      <p class="site-end__note"><a href="privacy.html">Политика конфиденциальности</a></p>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

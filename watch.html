@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" />
+  <meta name="theme-color" content="#050506" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Модель — Casio</title>
+  <meta name="description" content="Подробное описание модели Casio: характеристики и покупка." />
+
+  <script>
+    (function () {
+      try {
+        var host = location.hostname;
+        if (!/\.github\.io$/i.test(host)) return;
+        var parts = location.pathname.split("/").filter(Boolean);
+        if (!parts.length) return;
+        var repo = parts[0];
+        if (/\.[a-z0-9]+$/i.test(repo)) return;
+        var b = document.createElement("base");
+        b.href = "/" + repo + "/";
+        document.head.insertBefore(b, document.head.firstChild);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3" />
+  <link rel="shortcut icon" href="favicon.ico?v=3" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Syne:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css?v=mobile-1" />
+</head>
+<body class="page-bg">
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__photo"></div>
+    <div class="ambient__base"></div>
+    <div class="ambient__carbon"></div>
+    <div class="ambient__marbling"></div>
+    <div class="ambient__orb ambient__orb--gold"></div>
+    <div class="ambient__orb ambient__orb--steel"></div>
+    <div class="ambient__orb ambient__orb--forge"></div>
+    <div class="ambient__vignette"></div>
+    <div class="ambient__grain"></div>
+  </div>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html">Cas<span>io</span></a>
+      <button class="nav__toggle" type="button" aria-label="Меню" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="nav__links" aria-label="Основная навигация">
+        <a class="nav__link" href="index.html">Главная</a>
+        <a class="nav__link" href="best-sellers.html">Лидеры продаж</a>
+        <a class="nav__link" href="index.html#heritage">Наследие</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page watch-page">
+    <div class="wrap">
+      <div class="watch-layout">
+        <div class="watch-media reveal">
+          <div class="watch-media__main">
+            <div class="watch-media__glow" aria-hidden="true"></div>
+            <img
+              data-watch-image
+              src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1200&q=85"
+              alt="Модель Casio"
+            />
+          </div>
+        </div>
+
+        <div class="watch-info">
+          <p class="eyebrow reveal" data-watch-tag>Икона современного G-Shock</p>
+          <h1 class="watch-info__name reveal reveal-delay-1" data-watch-name>G-Shock GA-2100</h1>
+          <p class="watch-info__price reveal reveal-delay-1" data-watch-price>15 990 ₽</p>
+          <p class="watch-info__desc reveal reveal-delay-2" data-watch-desc>
+            Легендарная «CasiOak» — минималистичный восьмиугольный корпус и культовый циферблат.
+          </p>
+
+          <div class="watch-specs reveal reveal-delay-2">
+            <h2 class="watch-specs__title">Характеристики</h2>
+            <dl class="watch-specs__list" data-watch-specs>
+              <!-- filled by watch.js -->
+            </dl>
+          </div>
+
+          <div class="watch-info__actions reveal reveal-delay-3">
+            <a class="btn btn--ghost" href="best-sellers.html">
+              К коллекции
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-end wrap">
+      <p class="site-end__brand">CASIO</p>
+      <p class="site-end__note">Концепт премиального лендинга · 2026</p>
+      <p class="site-end__note"><a href="privacy.html">Политика конфиденциальности</a></p>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/watch.js"></script>
+</body>
+</html>
